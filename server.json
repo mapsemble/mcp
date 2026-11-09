@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mapsemble/mapsemble",
+  "title": "Mapsemble",
+  "description": "Build interactive maps for your website from a chat: places, routes, filters, cards, embed code.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mapsemble.com/docs/claude-and-chatgpt",
+  "icons": [
+    { "src": "https://app.mapsemble.com/images/favicon/web-app-manifest-512x512.png", "mimeType": "image/png", "sizes": ["512x512"] },
+    { "src": "https://app.mapsemble.com/images/favicon/web-app-manifest-192x192.png", "mimeType": "image/png", "sizes": ["192x192"] },
+    { "src": "https://app.mapsemble.com/images/favicon/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.mapsemble.com/mcp"
+    }
+  ]
+}
